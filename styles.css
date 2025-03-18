@@ -1,0 +1,136 @@
+/* Estilo general del cuerpo */
+   body {
+    font-family: Arial, sans-serif;                 /* Fuente general */
+    margin: 0;                                    
+    padding: 0;
+    background-color: rgb(252, 249, 101);         /* Fondo amarillo */
+    color: #333;                                  /* Color de texto */
+}
+/* Estilo del encabezado */
+header {
+    background-color: #222;
+    color: rgb(252, 249, 101);
+    padding: 20px;
+    text-align: center;                             /* Texto alineado al centro */
+}
+nav ul li {
+    display: inline;                                /* Muestra los elementos en línea */
+    margin: 0 15px;                                 /* Margen entre los elementos */
+}
+nav ul li a {
+    color: white;                                 /* Color de texto de los elementos <a> */
+    text-decoration: none;                          /* Ej. underline para subrayar texto */
+    font-weight: bold;                              /* Negrita */
+}
+/* Estilo de las secciones */
+section {
+    padding: 50px;
+    text-align: center;
+}
+h2 {
+    color: #444;
+}
+/* Estilo para las imagenes */
+img {
+    max-width: 40%;                                 /* Tamaño máximo de las imágenes */
+    height: auto;
+    border-radius: 28px;                            /* Redondeado de las esquinas de las imagenes */
+}
+/* Estilo de la tabla */
+table {
+    width: 30%;
+    margin: 20px auto;
+    border-collapse: collapse;                      /* Tipo de borde */
+    background: white;
+}
+table, th, td {
+    border: 1px solid #ccc;                       /* Tamaño del borde */
+}
+th, td {
+    padding: 5px;
+    text-align: center;
+}
+/* Estilo de los formularios */
+form {
+    width: 30%;
+    margin: auto;
+    background: white;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+input, textarea, select, button {
+    width: 95%;
+    padding: 10px;
+    margin: 5px 0;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+}
+button {
+    background: #222;
+    color: white;
+    cursor: pointer;
+    font-weight: bold;
+}
+button:hover {
+    background: #555;
+}
+/* Estilo del footer */
+footer {
+    background: #222;
+    color: white;
+    text-align: center;
+    padding: 20px;
+    margin-top: 20px;
+}
+footer img {
+    width: 30px;
+    margin: 0 10px;
+}
+/* Estilo de la seccion de inicio */
+#inicio {
+    text-align: center;
+    padding: 50px;
+}
+#inicio p {
+    display: inline-block;
+    width: 30%;
+    text-align: justify;
+    vertical-align: middle;
+    margin-right: 50px;
+    font-size: 25px;
+    line-height: 1.2;
+}
+#inicio img {
+    width: 60%;
+    max-width: 400px;
+    display: inline-block;
+    vertical-align: middle;
+}
+/* Estilo de la seccion nosotros */
+#nosotros p {
+    display: inline-block;
+    width: 30%;
+    text-align: justify;
+    vertical-align: middle;
+    font-size: 25px;
+    line-height: 1.2;
+}
+#nosotros img {
+    width: 60%;
+    max-width: 350px;
+    display: inline-block;
+    vertical-align: middle;
+    margin-right: 50px;
+}
+/* Estilo para video */
+iframe {
+    display: block;
+    margin: 20px auto;                              /* Para centrar el video */
+    width: 80%;
+    max-width: 600px;
+    height: 350px;
+    padding: 60px;
+    border-radius: 20px;
+    border: none;
+}
